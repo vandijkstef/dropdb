@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-module.exports = class FSDB {
+module.exports = class DropDB {
 	constructor(options = {}) {
 		this.folder = options.folder || 'db';
 		this.folder = `./${this.folder}`;

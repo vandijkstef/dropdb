@@ -1,8 +1,8 @@
 {
-  "name": "fsdb",
+  "name": "dropdb",
   "version": "0.0.1",
   "description": "FS-based DB for quick development and prototyping",
-  "main": "index.js",
+  "main": "dropdb.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

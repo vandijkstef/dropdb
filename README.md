@@ -1,14 +1,14 @@
-# FSDB
+# DropDB
 > A file-based db system for prototyping in Node Projects
 
 This module provides a simple file based database using folders as tables and files are rows/entries. It is created as a drop-in db system for your prototypes and small personal projects. That being said, I tried keeping the logic close to known DB systems so swapping it out should be relatively easy
 
 ## Usage
-Note that only full entries are returned. There's no such thing as selecting certain fields. FSDB is a class, and thus needs to be required and instantiated:
+Note that only full entries are returned. There's no such thing as selecting certain fields. DropDB is a class, and*////////////////////////////////// needs to be required and instantiated:
 
 ``` JS
-const fsdb = require('fsdb');
-const db = new fsdb(options);
+const dropdb = require('dropdb');
+const db = new dropdb(options);
 db.get(table, key);
 ```
 
