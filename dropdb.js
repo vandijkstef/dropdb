@@ -125,7 +125,7 @@ module.exports = class DropDB {
 			return false;
 		} finally {
 			Object.assign(oldData, data);
-			fs.writeFileSync(file, JSON.stringify(oldData, null, 4));
+			fs.writeFileSync(ff.file, JSON.stringify(oldData, null, 4));
 			return true;
 		}
 	}
